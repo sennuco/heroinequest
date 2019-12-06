@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head Start-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title>Heroine Quest</title>
+    <nav class="navbar is-primary">
+        <!-- navbar brand, navbar menu... -->
+        <div class="navbar-brand">
+            <!-- navbar items, navbar burger... -->
+            <a class="navbar-item home-button">
+                Home
+              </a>
+              <a class="navbar-item scoreboard">
+                  Scoreboard
+                </a>
+          </div>
+      </nav>
+</head>
+<!--Head End-->
+
+<!--Body start-->
+  <body class="body">
+    <div class="main-div" style="display">
+      <div class="img" style="display">
+        <img class="img" src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/heroinequest.png" alt="">
+      </div>
+
+        <button class="button is-primary is-focused start-btn">Start</button>
+
+    </div>
+
+<!--Second Div-->
+  <div class="character-select characters" style="display: none;"  id='mouseTarget'>
+    <!-- <div class="character-select-menu">
+    SELECT A CHARACTER!
+    </div> -->
+    
+    <div >
+   <button class="mia-btn" type="button"  > <div class="mia-name-btn">Mia 🗡</div>
+    <img class="mia-character-select mia" src="/Users/meicodes/Desktop/mod-3-finale-project/images/Mia.png" alt="" width="350" height="150">
+  </button>
+    </div>
+
+
+  <div>
+    <button class="meena-btn" type="button" > <div class="meena-name-btn">Meena 🔮</div>
+    <img class="meena-character-select meena" src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/final-meena.png" alt="" width="400" height="500">
+  
+    </button>
+   </div> 
+  
+ 
+  </div>
+
+  <!--Third Div-->
+  <div class="third-div" style="display: none;">
+
+     
+     <img class="monster-spell" style ="display: none;" src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/lightning01.gif" alt="lightning bolt magic effect" width="700px" height="700px">
+  
+      <progress id= "file" class="progress monster-health is-danger" value="410" max="410" style="width:10%">410%</progress>
+
+      <progress id="file" class="progress hero-health-bar is-primary" max="300" value="300" style="width:50%"> 300% </progress>
+
+ 
+      <div class = "single-enemy">
+
+      <img class="normal-background" src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/empty_stage_1.png" alt="single enemy" width="900" height="700">
+      <button class="button is-danger is-large atk-btn" id="atk-btn">Attack</button><br></br><br>
+      <button class="button is-link is-large spell-btn" id="spell-btn">Spells</button>
+
+      <!-- <div class="spell-cast-bg" style="display: none;">
+        <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/spellattack.png" alt="">
+      </div> -->
+      
+      <div class="comment-box">
+          <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/textbox.png" alt="" width="1000px" height="1300px">
+      </div>
+      
+      <!-- <button class="button is-danger atk-btn">Defend</button> -->
+      <!-- <button class="button is-danger atk-btn">Extra</button> -->
+    </div>
+   
+  </div>
+
+
+  <!--Fourth Div-->
+  
+  <div class="meena-battle-comment animated bounce delay-1s" style="display: none;" >
+   
+      <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/meena-head-img.png" alt="" width="300px" height="300px" >
+
+  </div>
+
+  <div class="mia-battle-comment animated bounce delay-1s" style="display: none;">
+    <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/miacomment.png" alt="" width="300px" height="300px" >
+  </div>
+
+
+  <div class="monster-img" style="display: none;" >
+    <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/tumblr_inline_o2dzyp853j1ri065t_500.gif" alt="" width="500" height="450">
+
+  </div>
+
+  <div class="animated infinite bounce spell-effect" style="display: none;">
+      <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/demon-awakening-effect-slash-3.gif" alt="" style="display" width="250" height="300">
+    </div>
+  
+  </body>
+
+
+  <!--Five Div-->
+
+  <div class= "victory" style="display: none;">
+    <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/victory.png" alt="victory">
+  </div>
+
+  <!--Six Div-->
+  <div class="gameover" style="display: none;" >
+    <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/gameover.gif" alt="" width="1500" height="1000">
+  </div>
+
+ <!--Seventh Div-->
+
+ <form class="victory-form" style="display: none;">
+    <strong>Username:</strong>
+    <input type="text" id="input" name="username" placeholder="enter name">
+    <input type="hidden" name="monster_id">
+    <input type="hidden" name="hero_id">
+
+    <input type="submit" value="Submit">
+  </form>
+
+ </form>
+
+<div class="scoreboard-img" style= "display: none;">
+  <img src="/Users/meicodes/Desktop/Mod-3-Finale-project/images/scoreboard.png" alt=""  width="800" height="800">
+</div>
+<!-- 
+<form class="edit-form" style="display: none;">
+  <input type="text" name="username">
+  <input type="submit" value="Submit">
+</form> -->
+
+
+<!--Music-->
+<audio controls style="display: none;" class="dq-music" loop="true">
+
+    <source src="/Users/meicodes/Desktop/Mod-3-Finale-project/audio/battletheme.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+
+  <!--Body End-->
+</html>

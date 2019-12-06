@@ -1,0 +1,158 @@
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.start-btn{
+    height:100px; 
+    width:270px; 
+    margin: -220px -40px; 
+    position: relative;;
+    top:50%; 
+    left:50%;
+}
+
+.meena {  /*beginning moves up and down(-2000)*/   /*end moved left and right(150px)*/
+    margin: 3em;
+ }
+
+.mia{
+   margin: 3em;
+} 
+
+/*Blue haired character*/
+/* .blue-haired{
+   margin:  1em;
+}  */
+
+.characters{
+   align-content: center; 
+   display: flex;
+   flex-direction: row;
+   background-color:white;
+   margin: 10em;
+   padding: .5em;
+}
+
+/* #mouseTarget {
+    box-sizing: border-box;
+    width:15rem;
+    border:1px solid #333;
+  } */
+
+
+  /*Hero BUTTONS*/
+
+  .meena-btn{
+      /* background-color: teal; */
+      height: 80em; 
+      /* border-width:5px ; */
+      /* border-style: solid; */
+      border-color: goldenrod;
+      border-width: 2px;
+      background-color: lightgray;
+      
+  }
+
+  .meena-name-btn{
+    background-color: purple;
+}
+
+  .mia-btn{
+    /* background-color: teal; */
+    height: 80em; 
+    /* border-width:5px ; */
+    /* border-style: solid; */
+    border-color:teal;
+    border-width: 2px;
+    background-color: lightgray;
+    
+}
+
+    .mia-name-btn{
+        background-color: teal;
+    }
+
+ /*Battle Buttons*/
+
+ .atk-btn{ /*move up and dwn*/  /*move left or right*/
+    margin: -240px 300px;
+ }
+
+ .spell-btn{
+    margin: -310px 510px;
+ }
+
+ .monster-health{
+    margin: auto;
+    transform: translate(-50%, 2500%);
+    
+}
+
+.single-enemy{
+    align-content: center; 
+    /* background-image: url("https://cdna.artstation.com/p/assets/images/images/006/295/124/large/sergiu-matei-grass-tile-pixel-art-rpg-top-view-indie-game-dev-matei-sergiu.jpg?1497472728"); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 10em;
+    /* padding: 1.5em; */
+}
+
+.meena-battle-comment{
+    margin: 250px 470px;
+ 
+}
+
+
+.victory{
+    margin: 200px 100px;
+   /* padding: 1.5rem;  */
+}
+
+
+.comment-box{
+   margin: -620px -40px;
+    
+}
+
+.monster-img{
+ margin: -800px 352px;
+}
+
+.hero-health-bar{
+    margin: auto;
+    transform: translate(-10%, 5600%);
+}
+
+.normal-background{
+    align-content: center; 
+    /* background-image: url("https://cdna.artstation.com/p/assets/images/images/006/295/124/large/sergiu-matei-grass-tile-pixel-art-rpg-top-view-indie-game-dev-matei-sergiu.jpg?1497472728"); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* margin: 10em; */
+
+}
+
+.spell-effect{
+    margin: 500px 470px;
+}
+
+
+.monster-spell{
+    margin: auto;
+    transform: translate(45%, 130%);
+}
+
+.mia-battle-comment {
+    margin: 250px 470px; 
+}
+
+.victory-form{
+    margin: -700px 500px;
+}
+
+.scoreboard-img{
+    margin: 200px 470px;
+    height: 1000px;
+}

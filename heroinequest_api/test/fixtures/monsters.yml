@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  atk: 1
+  def: 1
+  hp: 1
+  mp: 1
+  spell: MyString
+
+two:
+  name: MyString
+  atk: 1
+  def: 1
+  hp: 1
+  mp: 1
+  spell: MyString

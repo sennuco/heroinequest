@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  scoreboard: MyString
+  hero_id: 1
+  monster_id: 1
+  counter: 1
+
+two:
+  username: MyString
+  scoreboard: MyString
+  hero_id: 1
+  monster_id: 1
+  counter: 1
